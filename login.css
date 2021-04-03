@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-image:url("LibrarySystem/signup.jpg");
+    background-size:cover;
+    background-position:fixed;
+    background-repeat:no-repeat;
+    min-height:100vh;
+    width:100%;
+}
+body #signup{
+    width:400px;
+    height:450px;
+    border:2px solid #000;
+    border-radius:20px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    background-color:rgba(92, 5, 150, 0.8);
+    text-align:center;
+    box-sizing:border-box;
+    box-shadow:0px 0px 10px 5px #fff;
+    display:none;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+}
+body form h2{
+    text-transform:uppercase;
+    text-align:center;
+    color:yellow;
+    outline:none;
+    margin-bottom:40px;
+    font-weight:900;
+}
+form input[type="text"],form input[type="email"],form input[type="password"]
+{
+    padding:15px 10px;
+    margin:10px auto;
+    width:250px;
+    border:0;
+    border-radius:40px;
+    outline:none;
+    text-align:center;
+    background-color:rgba(0, 0, 0, 0.9);
+    color:#fff;
+    border:2px solid yellowgreen;
+    display:block;
+    transition:0.25s;
+
+}
+form input[type="text"]:focus,form input[type="email"]:focus,form input[type="password"]:focus{
+    border:2px solid #ffff01;
+    width:300px;
+    outline:none;
+    transition:0.25s;
+}
+form input[type="button"]{
+    padding:12px 10px;
+    margin:10px auto;
+    border:0;
+    border-radius:17px;
+    outline:none;
+    text-transform: uppercase;
+    text-align:center;
+    color:#fff;
+    background-color:rgba(0, 0, 0, 0.9);
+    display:block;
+    cursor: pointer;
+    transition:0.2s;
+    width:100px; 
+}
+form input[type="button"]:hover{
+    color:yellowgreen;
+    background-color:rgba(0, 0, 0, 0.9);
+    width:120px; 
+}
+form p{
+    color:#fff;
+}
+form p span{
+    text-decoration:none;
+    color:#ffff01;
+    text-transform:capitalize;
+    cursor: pointer;
+}
+#login{
+    width:400px;
+    height:360px;
+    border:2px solid #000;
+    border-radius:20px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    background-color:rgba(92, 5, 150, 0.8);
+    text-align:center;
+    box-sizing:border-box;
+    box-shadow:0px 0px 10px 5px #fff;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+}
